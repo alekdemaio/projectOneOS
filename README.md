@@ -51,154 +51,303 @@ This is the scenario with the most concrete results. Even so, I think there were
 ( seed value of 97 )
 
 ID:            1
+
 Wait:          0
+
 Service Time:  20000000
+
 ID:            2
+
 Wait:          0
+
 Service Time:  20000000
+
 ID:            3
+
 Wait:          0
+
 Service Time:  20000000
+
 ID:            4
+
 Wait:          0
+
 Service Time:  19100000
+
 ID:            5
+
 Wait:          0
+
 Service Time:  19100000
+
 ID:            6
+
 Wait:          0
+
 Service Time:  19100000
+
 ID:            7
+
 Wait:          0
+
 Service Time:  18910000
+
 ID:            8
+
 Wait:          0
+
 Service Time:  18910000
+
 ID:            9
+
 Wait:          0
+
 Service Time:  18910000
+
 ID:            10
+
 Wait:          0
+
 Service Time:  18830000
+
 ID:            11
+
 Wait:          0
+
 Service Time:  18830000
+
 ID:            12
+
 Wait:          0
+
 Service Time:  18830000
+
 ID:            13
+
 Wait:          0
+
 Service Time:  18823100
+
 ID:            14
+
 Wait:          0
+
 Service Time:  18823100
+
 ID:            15
+
 Wait:          0
+
 Service Time:  18823100
+
 ID:            16
+
 Wait:          0
+
 Service Time:  18822510
+
 ID:            17
+
 Wait:          0
+
 Service Time:  18822510
+
 ID:            18
+
 Wait:          0
+
 Service Time:  18822510
+
 ID:            19
+
 Wait:          0
+
 Service Time:  18822481
+
 ID:            20
+
 Wait:          0
+
 Service Time:  18822481
+
 ID:            21
+
 Wait:          0
+
 Service Time:  18822481
+
 ID:            22
+
 Wait:          0
+
 Service Time:  18822478
+
 ID:            23
+
 Wait:          0
+
 Service Time:  18822478
+
 ID:            24
+
 Wait:          0
+
 Service Time:  18822478
+
 ID:            0
+
 Wait:          0
+
 Service Time:  18822478
+
 ID:            25
+
 Wait:          0
+
 Service Time:  18822479
+
 ID:            26
+
 Wait:          0
+
 Service Time:  18822479
+
 ID:            27
+
 Wait:          0
+
 Service Time:  18822479
+
 ID:            29
+
 Wait:          0
+
 Service Time:  20000000
+
 ID:            30
+
 Wait:          0
+
 Service Time:  20000000
+
 ID:            31
+
 Wait:          0
+
 Service Time:  20000000
+
 ID:            32
+
 Wait:          0
+
 Service Time:  10510000
+
 ID:            33
+
 Wait:          0
+
 Service Time:  10510000
+
 ID:            34
+
 Wait:          0
+
 Service Time:  10510000
+
 ID:            35
+
 Wait:          0
+
 Service Time:  10500100
+
 ID:            36
+
 Wait:          0
+
 Service Time:  10500100
+
 ID:            37
+
 Wait:          0
+
 Service Time:  10500100
+
 ID:            38
+
 Wait:          0
+
 Service Time:  10490410
+
 ID:            39
+
 Wait:          0
+
 Service Time:  10490410
+
 ID:            40
+
 Wait:          0
+
 Service Time:  10490410
+
 ID:            41
+
 Wait:          0
+
 Service Time:  10490361
+
 ID:            42
+
 Wait:          0
+
 Service Time:  10490361
+
 ID:            43
+
 Wait:          0
+
 Service Time:  10490361
+
 ID:            44
+
 Wait:          0
+
 Service Time:  10490356
+
 ID:            45
+
 Wait:          0
+
 Service Time:  10490356
+
 ID:            46
+
 Wait:          0
+
 Service Time:  10490356
+
 ID:            28
+
 Wait:          0
+
 Service Time:  10490356
+
 ID:            47
+
 Wait:          0
+
 Service Time:  10490357
+
 ID:            48
+
 Wait:          0
+
 Service Time:  10490357
+
 ID:            49
+
 Wait:          0
+
 Service Time:  10490357
 
 # Run My Program
