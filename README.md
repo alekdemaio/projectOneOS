@@ -20,28 +20,28 @@ SRT- Shortest Remaining Time. Similar to SJF, but this version is preemptive.
 
 RR- Round Robin. Quantums are the name of the game for this algorithm. Quantums dicatate the number of cycles each process gets on the processor before being preempted, if a job is finished before the quantum is up, a new process switches on to the processor.
 
-ML- Multi-level Priority has external priority values. Within each priority level scheduling functions as preemptive RR or nonpreemptive FIFO. If a process with a higher priority enters the system, the lower priority process can be preempted off for the higher priority process.
+ML- Multi-level Priority has external priority values. Within each priority level, scheduling functions as preemptive RR or nonpreemptive FIFO. If a process with a higher priority enters the system, the lower priority process can be preempted off for the higher priority process.
 
 # My Simulation
 My simulation first creates 50 Process objects and puts them into an array.
 
-An array of size for is created for the Processor objects as well.
+An array of size 50 for is created for the Processor objects as well.
 
 The program then prompts the user for a seed value, to be used in mersenne twister randomization. Mersenne Twister is then seeded.
 
-Our process array is then filled with random values to be used in the simulation.
+A Process array is then filled with random values to be used in the simulation.
 
 Next we ask our user which scenario and alogrithm they would like to use, this navigation is done through a menu.
 
 Once arrived at the proper alogrithm and scenario, a while loop iterates through the queue of processes "executing" them.
 
-For every iteration of the while loop we need processors filled so that is addressed at the beginnnning of the loop.
+For every iteration of the while loop we need processors filled. That is addressed at the beginnnning of the loop.
 
 After we have process's on processors, we knock out cycles in groups starting with 10000000, lowering this value until all process's on the processors can subtract the indicated amount (this is meant to save time).
 
-After this we test to see if any of the processors are finished with their execution of a process, if so the process is pushed onto a new queue and a flag is raised so a new process can be added durinng the next loop iteration.
+After this we test to see if any of the processors are finished with their execution of their process, if so the process is pushed onto a print queue and a flag is raised so a new process can be added to the processor during the next while loop's iteration.
 
-After this while loop and after all processes have been "executed", a for loop returns the contents of the result queue to the console.
+After this while loop and after all processes have been "executed", a for loop returns the contents of the print queue to the console.
 
 # Statistics
 FIFO - Scenario One
@@ -352,4 +352,5 @@ Service Time:  10490357
 
 # Run My Program
 command one --> g++ proj1main.cpp proj1processClass.cpp proj1Processor.cpp
+
 command two --> ./a.out
